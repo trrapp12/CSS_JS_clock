@@ -1,5 +1,30 @@
+* {
+	margin: none;
+	border: none;
+}
+
 html {
 	background: url("../../assets/pattern/pattern-pineapple.jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
+	background-size: cover;
+	font-family: "helvetica neue";
+	text-align: center;
+	font-size: 10px; 
+}
+
+.clockface {
+	width: 40vw;
+	height: 40vw;
+	margin-top: 33vh;
+	margin-bottom: auto;
+	margin-right: auto;
+	margin-left: auto;
+	background:rgba(255,255,255, 0.5);
+	-moz-border-radius: 40vw;
+	-webkit-border-radius: 40vw;
+	border-radius: 40vw;
+	border-width: 10px;
+	border-color: white;
+	border-style: solid;
 }
