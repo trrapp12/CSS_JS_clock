@@ -11,6 +11,7 @@ html {
 	font-family: "helvetica neue";
 	text-align: center;
 	font-size: 10px; 
+	transition-duration: .5s;
 }
 
 .clockface {
@@ -39,7 +40,7 @@ html {
     transform: rotate(90deg);
 	height: 1vw;
 	transform-origin: 100%;
-	transition: all 0.5s;
+	transition: all 0.05s;
 	transition-timing-function: cubic-bezier(0.39, -0.26, 0, 1.94);
 }
 
@@ -51,6 +52,14 @@ html {
 
 }
 
-.second {
+#one {
 
+}
+
+#two {
+
+}
+
+#three {
+	transform: translateY(-3px) !important;
 }
