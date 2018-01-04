@@ -13,16 +13,15 @@ function setDate () {
 	const seconds = now.getSeconds();
 	// An integer number, between 0 and 59, representing the seconds in the given date according to local time.
 	const secondsDegrees = ((seconds / 60) * 360) + 90;
-	secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
+	secondHand.style.transform = `rotate(${secondsDegrees}deg) translateY(0px) translateX(0px)`;
 	
 	const mins = now.getMinutes();
 	const minDegrees =((mins / 60) * 360) + 90;
-	minHand.style.transform = `rotate(${minDegrees}deg)`;
+	minHand.style.transform = `rotate(${minDegrees}deg) translateY(-4px) translateX(-3px)`;
 
 	const hours = now.getHours();
 	const hourDegrees = ((hours / 24) * 360) + 90;
-	hourHand.style.transform = `rotate(${hourDegrees}deg)`;
-
+	hourHand.style.transform = `rotate(${hourDegrees}deg) translateY(-20px) translateX(11px)`;
 };
 
 setInterval(setDate, 1000)
@@ -32,15 +31,15 @@ setInterval(setDate, 1000)
 // the setDate is the function you already created, and the 1000 is setting the timeinterval that is separating
 // function calls, i.e. 1000ms or 1 second
 
-var backGround = {
-	pattern: ["pattern-pineapple.jpeg", "pattern-stainglass.jpeg", "pattern-triangles.jpg"],
-	soldiers: ["boarding.jpeg", "halo.jpeg", "singleRound.jpeg"],
-	stars: ["stars1.jpg","stars2.jpeg","stars3.jpg"]
-};
+// var backGround = {
+// 	pattern: ["pattern-pineapple.jpeg", "pattern-stainglass.jpeg", "pattern-triangles.jpg"],
+// 	soldiers: ["boarding.jpeg", "halo.jpeg", "singleRound.jpeg"],
+// 	stars: ["stars1.jpg","stars2.jpeg","stars3.jpg"]
+// };
 
-function changeBackground () {
-	document.getElementsByTagName('html').style.background = 'url("../../assets/pattern/pattern-pineapple.jpeg")';
+// function changeBackground () {
+// 	document.getElementsByTagName('html').style.background = 'url("../../assets/pattern/pattern-pineapple.jpeg")';
 
-};
+// };
 
-setTimeout(changeBackground, 3000);
+// setTimeout(changeBackground, 3000);

@@ -15,8 +15,9 @@ html {
 }
 
 .clockface {
-	width: 40vw;
-	height: 40vw;
+
+	width: 42vw;
+	height: 42vw;
 	margin-top: 16vh;
 	margin-bottom: auto;
 	margin-right: auto;
@@ -28,11 +29,12 @@ html {
 	border-width: 10px;
 	border-color: white;
 	border-style: solid;
+
 }
 /*the hands of the watch*/
 .hand {
 	background-color: white;
-	width: 20vw;
+	width: 17vw;
 	-webkit-transform: rotate(90deg);
     -moz-transform: rotate(90deg);
     -o-transform: rotate(90deg);
@@ -48,18 +50,7 @@ html {
 	margin-top: 19vw;
 }
 
-.minute {
+.adjustment {
+	transform: translate(61px, 6px);
 
-}
-
-#one {
-
-}
-
-#two {
-
-}
-
-#three {
-	transform: translateY(-3px) !important;
 }
