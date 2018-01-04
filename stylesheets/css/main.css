@@ -16,7 +16,7 @@ html {
 .clockface {
 	width: 40vw;
 	height: 40vw;
-	margin-top: 33vh;
+	margin-top: 16vh;
 	margin-bottom: auto;
 	margin-right: auto;
 	margin-left: auto;
@@ -29,7 +29,7 @@ html {
 	border-style: solid;
 }
 /*the hands of the watch*/
-.hour-hand {
+.hand {
 	background-color: white;
 	width: 20vw;
 	-webkit-transform: rotate(90deg);
@@ -38,33 +38,19 @@ html {
     -ms-transform: rotate(90deg);
     transform: rotate(90deg);
 	height: 1vw;
-	margin-top: 15vh;
 	transform-origin: 100%;
 	transition: all 0.5s;
+	transition-timing-function: cubic-bezier(0.39, -0.26, 0, 1.94);
 }
 
-.minute-hand {
-	background-color: white;
-	width: 20vw;
-	-webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-	height: 1vw;
-	transform-origin: 100%;
-	transition: all 0.5s;
+.hour {
+	margin-top: 19vw;
 }
 
-.second-hand {
-	background-color: white;
-	width: 20vw;
-	-webkit-transform: rotate(90deg);
-    -moz-transform: rotate(90deg);
-    -o-transform: rotate(90deg);
-    -ms-transform: rotate(90deg);
-    transform: rotate(90deg);
-	height: 1vw;
-	transform-origin: 100%;
-	transition: all 0.5s;
+.minute {
+
+}
+
+.second {
+
 }
