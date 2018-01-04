@@ -13,15 +13,15 @@ function setDate () {
 	const seconds = now.getSeconds();
 	// An integer number, between 0 and 59, representing the seconds in the given date according to local time.
 	const secondsDegrees = ((seconds / 60) * 360) + 90;
-	secondHand.style.transform = `rotate(${secondsDegrees}deg) translateY(0px) translateX(0px)`;
+	secondHand.style.transform = `rotate(${secondsDegrees}deg)`;
 	
 	const mins = now.getMinutes();
 	const minDegrees =((mins / 60) * 360) + 90;
-	minHand.style.transform = `rotate(${minDegrees}deg) translateY(-4px) translateX(-3px)`;
+	minHand.style.transform = `rotate(${minDegrees}deg)`;
 
 	const hours = now.getHours();
 	const hourDegrees = ((hours / 24) * 360) + 90;
-	hourHand.style.transform = `rotate(${hourDegrees}deg) translateY(-20px) translateX(11px)`;
+	hourHand.style.transform = `rotate(${hourDegrees}deg)`;
 };
 
 setInterval(setDate, 1000)
