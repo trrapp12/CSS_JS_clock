@@ -9,13 +9,10 @@ Uses CSS and Javascript to get current time and convert it into an analog clock 
 <br>
 
 
-[![Button60](https://user-images.githubusercontent.com/11747875/145134031-63e505b6-c009-4e4b-8bd6-bc160c52c3f1.png)](https://www.dianarapp.com)
+[![Button60](https://user-images.githubusercontent.com/11747875/145134031-63e505b6-c009-4e4b-8bd6-bc160c52c3f1.png)](https://trrapp12.github.io/CSS_JS_clock/)
 
 <br>
 
-
-
-https://user-images.githubusercontent.com/11747875/148154029-a0bdf10f-a730-42ea-ad05-9a5c4b4c3f33.mp4
 
 
 <br />
@@ -99,7 +96,7 @@ As you can see the project as evolved.  The original project only met the requir
 ### Project published at: 
 
 
-[Diana Tribute Page](https://trrapp12.github.io/diana-tribute/)
+[CSS JS Clock](https://trrapp12.github.io/CSS_JS_clock/)
 
 <br>
 <br>
