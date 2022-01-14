@@ -43,9 +43,6 @@ This is a tutorial based project based off of Wes Bos's [javascript30](https://j
 
 ### Project demonstrates the following:</a>
 
-
-![Original Project](https://user-images.githubusercontent.com/11747875/145134811-b1988778-44ab-43fd-b194-07041f0fb393.gif)
-
 - [X] **User Story #1:** Displays time graphically simulating an analog clock.
 
 - [X] **User Story #2:** utilizes JavaScript Date() object.
