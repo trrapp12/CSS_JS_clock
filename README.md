@@ -1,12 +1,9 @@
-# CSS_JS_clock
+# CSS / JS clock
 
-Uses CSS and Javascript to get current time and convert it into an analog clock display with animation.
+
+##### Contributors: Trevor Rapp, Wes Bos
 
  ---
- 
- ##### Trevor Rapp
-
-<br>
 
 
 [![Button60](https://user-images.githubusercontent.com/11747875/145134031-63e505b6-c009-4e4b-8bd6-bc160c52c3f1.png)](https://trrapp12.github.io/CSS_JS_clock/)
