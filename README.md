@@ -70,7 +70,7 @@ To use the app simply click on the ```View Project``` button or visit https://ge
 
 ### ATTRIBUTIONS
 
-* Tutorial written by Wes Bos.
+Tutorial written by Wes Bos.
 
 ---
 
