@@ -38,7 +38,7 @@ This is a tutorial based project based off of Wes Bos's [javascript30](https://j
 
 ### QUICKSTART GUIDE: 
 
-To use the app simply click on the ```View Project``` button or visit https://gentle-monstera-8c285d.netlify.app/. 
+To use the app simply click on the ```View Project``` button or visit <a href="https://trrapp12.github.io/CSS_JS_clock/">https://trrapp12.github.io/CSS_JS_clock/</a>. 
 
 ---
 
